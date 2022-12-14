@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>📞 Contact Details</title>
+</head>
+<body>
+    <h1>How to contact Erin</h1>
+    <p>It is preferred that you contact me via email or messages before calling as I can miss your call during the day.</p>
+    <ul>
+        <li><strong>Email</strong>: daeun.erin.shin@gmail.com</li>
+        <li><strong>Phone</strong>: 0403 163 226</li>
+        <li><strong>Linkedin</strong>: <a href="https://www.linkedin.com/in/erin-shin-a3159b162/">Link to my profile</a></li>
+    </ul>
+    <hr>
+    <form action="mailto:daeun.erin.shin@gmail.com" method="post" enctype="text/plain">
+    <! form attributes notes: 
+    action="" is what should happen when you click submit. i.e. action="index.html" takes you to the index.html page.
+    action="mailto:daeun.erin.shin@gmail.com" opens email to the email link. 
+    method="post" means what the user types into the input fields gets sent to the email
+    enctype="text/plain" means the data in our form is encoded in plain text instead of UTF-8>
+        <label>Name:</label>
+        <input type="text" name="Name" value="">
+        <br>
+        <label>Email:</label>
+        <input type="email" name="Email" value="">
+        <br>
+        <label>Message:</label><br>
+        <textarea name="Message" rows="10" cols="80"></textarea><br>
+        <input type="submit" name="">
+        <! name="" identifies the data in each of the inputs when posted in the email identified. 
+        If left blank, nothing comes up!>
+    </form>
+</body>
+</html>
